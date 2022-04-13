@@ -1,7 +1,7 @@
 /* header*/
 
 header{
-    background-color: #B5161A;
+    background-color: #ad9e9f;
 }
 
 /* main*/
@@ -18,6 +18,8 @@ border-collapse: collapse;
 main{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 th{
     background-color: #646465;
@@ -28,7 +30,9 @@ td{
     border-style: solid;
     text-align: center;
 }
-
+p{
+    text-align: center;
+}
 
 /* footer*/
 footer{
